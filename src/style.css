@@ -57,10 +57,10 @@ header a {
 }
 
 .grid-2-columns {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
 }
 
-.grid-3-columns-with-1st-narrow {
+.grid-3-columns {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
