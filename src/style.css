@@ -64,12 +64,18 @@ header a {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.grid-cafe-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 section {
   max-width: 100%;
   margin: 0 auto;
   padding: 100px;
 }
-
+section.secondary {
+  background-color: #f8f8f8;
+}
 .responsive-image {
   max-width: 580px;
   height: 461px;
@@ -102,11 +108,53 @@ main p {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-
   opacity: 0.7;
   color: #272044;
 }
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1;
+  color: #272044;
+}
 
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  margin: 30px 0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #272044;
+  text-decoration: none;
+}
+.card-footer {
+  padding: 30px;
+}
 footer {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.9),
