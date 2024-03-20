@@ -71,6 +71,11 @@ header a {
 .card-header.grid {
   grid-gap: 0;
 }
+.grid-video-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 32px;
+}
 
 section {
   max-width: 100%;
@@ -166,6 +171,13 @@ main h5 {
   aspect-ratio: 1/1;
 }
 
+.video {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+.youtube-embeds {
+  margin: 70px 0 10px;
+}
 footer {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.9),
@@ -238,5 +250,9 @@ footer a {
 
   .embed {
     aspect-ratio: 16/9;
+  }
+
+  .grid-video-columns {
+    grid-template-columns: 1fr;
   }
 }
